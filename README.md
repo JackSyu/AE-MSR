@@ -1,5 +1,5 @@
 # Discriminative Multi-modality Speech Recognition
-In this paper, we propose a two-stage speech recognition model. In the first stage, the target voice is separated from background noises with help from the corresponding visual information of lip movements, making the model ‘listen' clearly. At the second stage, the audio modality combines visual modality again to better understand the speech by a MSR sub-network, further improving the recognition rate.
+In this paper, we propose a two-stage speech recognition model. In the first stage, the target voice is separated from background noises with help from the corresponding visual information of lip movements, making the model 'listen' clearly. At the second stage, the audio modality combines visual modality again to better understand the speech by a MSR sub-network, further improving the recognition rate.
 ## Paper
 [Paper(Arxiv)](http://arxiv.org/abs/2005.05592)
 ## Preparation
@@ -20,7 +20,7 @@ MATLAB (optionally）
 ```
 ### Data preprocessing
 LRS3:<br>
-Download the data.<br>
+Download or use your own data.<br>
 Extract the video frames and crop lip area.<br>
 ```
 cd preprocessing
